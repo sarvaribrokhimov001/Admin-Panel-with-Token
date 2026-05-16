@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Table = () => {
+const Products = () => {
   return (
     <div>
 
     </div>
   )
 }
-export default Table
+export default Products

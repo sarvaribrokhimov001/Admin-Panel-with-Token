@@ -26,7 +26,7 @@ const Login = () => {
     if (!username || !password) {
       toast.error("Bo'sh maydonni to'ldiring !", {
         position: "top-center",
-        duration: "2000",
+        duration: "2000s",
         style: {
           color: "red",
           fontWeight: "bold",
@@ -119,7 +119,6 @@ const Login = () => {
                  hover:text-yellow-400 hover:border-4 hover:border-yellow-400 hover:shadow hover:shadow-[0_0_15px_rgba(255,193,7,0.8),0_0_30px_rgba(255,193,7,0.6),0_0_45px_rgba(255,193,7,0.4)]
                  active:text-green-700 active:border-4 active:border-green-700 active:shadow active:shadow-[0_0_15px_rgba(74,222,128,0.8),0_0_30px_rgba(74,222,128,0.6),0_0_45px_rgba(74,222,128,0.4)]"
         >
-          {" "}
           Submit
         </button>
       </form>
