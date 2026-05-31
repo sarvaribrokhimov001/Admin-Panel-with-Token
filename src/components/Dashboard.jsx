@@ -6,19 +6,18 @@ import { Outlet } from 'react-router-dom';
 const Dashboard = () => {
   return (
     <div>
-        <div >
-          <Sidebar/>
+      <div className="min-h-screen flex bg-slate-950 text-white">
+        <Sidebar />
 
-          <div>
-            <Navbar/>
+      <div className="flex-1">
+        <Navbar />
 
-            <main>
-              <Outlet/>
-            </main>
-            
-          </div>
-        </div>
+      <main className="p-6">
+        <Outlet />
+      </main>
     </div>
+   </div>
+  </div>
   )
 }
 export default Dashboard

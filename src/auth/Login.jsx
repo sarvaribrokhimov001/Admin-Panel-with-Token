@@ -26,7 +26,7 @@ const Login = () => {
     if (!username || !password) {
       toast.error("Bo'sh maydonni to'ldiring !", {
         position: "top-center",
-        duration: "2000s",
+        duration: "2000",
         style: {
           color: "red",
           fontWeight: "bold",
@@ -64,7 +64,7 @@ const Login = () => {
 
       toast.success("Successfully Validation to Dashboard !", {
         position: "top-center",
-        duration: "2000",
+        duration: 2000,
         style: {
           color: "green",
           fontWeight: "bold",
