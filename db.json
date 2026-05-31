@@ -159,13 +159,6 @@
       "category": "Photography",
       "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&q=80",
       "description": "48MP camera, 4K/60fps, obstacle sensing"
-    },
-    {
-      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&q=80",
-      "name": "Sarvar",
-      "price": "1234",
-      "category": "men's clothing",
-      "id": "zT6t0kdM0pA"
     }
   ],
   "Users": [
@@ -348,14 +341,6 @@
       "role": "User",
       "joined": "2021-11-16",
       "country": "Sweden"
-    },
-    {
-      "avatar": "https://i.pravatar.cc/150?img=1",
-      "name": "Sarvarbek Ibrokhimov",
-      "email": "sarvaribrokhimov0607@gmail.com",
-      "role": "Admin",
-      "country": "uzbekistan",
-      "id": "U_zExUsJFtM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
